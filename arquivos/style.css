@@ -1,5 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 *{
+
+:root {
+   --roxo-mais-escuro: #10002B
+   --roxo-medio: #7B2CBF
+   --roxo-claro: #E0AAFF
+   --preto: #000000
+   --branco: #FFFFFF
+
+}
+
    padding: 0;
   margin: 0;
 }
@@ -11,9 +21,9 @@
     padding-right: 30px;
  }   
 .topo{
+   padding: 40px 70px;
    display: flex;
    justify-content: space-between;
-   padding-top: 30px;
    align-items: center;
 }      
 ul{  
@@ -42,7 +52,7 @@ img{
    justify-content: space-between;
    align-items: center;
 }
-.esqueda{
+.esquerda{
    display: flex;
    flex-direction: column;
 }
@@ -59,7 +69,7 @@ h1{
    font-weight: 900;
 }
 .botao-primario{
-   background-color: black;
+   background-color: #E0AAFF;
    color: white;
    font-size: 28px;
    border-radius: 8px;
@@ -68,4 +78,49 @@ h1{
 }
 p,h1{
   padding-top: 15px;
+}
+
+#Sinopse {
+   padding: 40px 70px;
+   display: flex;
+   flex-direction: column;
+   gap: 50px;
+   align-items: center;
+   justify-content: center;
+}
+
+.beneficios {
+   padding: 0 100px;
+   display: flex;
+   gap: 140px;
+   justify-content: center;
+   align-items: center;
+}
+
+.beneficio-titulo {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   gap: 8px;
+   width: 100%;
+}
+
+.beneficio {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+
+.beneficio h4 {
+   font-size: 20px;
+}
+
+.beneficio p {
+   text-align: center;
+   font-size: 16px;
+}
+
+#beneficios .botao-primario {
+   padding: 10px 50px;
 }

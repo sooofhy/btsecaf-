@@ -8,16 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
+
     <section class="topo">
-        <a href="index.html"><img src="images/favicon.svg" alt=""></a>
-        <ul>
-            <a href="http://127.0.0.1:5500/index.html"><li>Página inicial</li></a>
+        <a href="index.html"><img src="images/favicon.svg" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
             <a href="#RedesSociais"><li>Redes Sociais</li></a>
-            <a href="#beneficios"><li>Benefícios</li></a>
-            <a href="#sobre-nos"><li>Sobre nós</li></a>
+            <a href="#beneficios"><li>Mais formas de conhecer os meninos</li></a>
+            <a href="#sobre-nos"><li>Sobre Eles</li></a>
             <a class="botao-primario" href="">Assistir!</a>
-        </ul>
-    </section>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
+
 
     <section class="header">
         <section class="esquerda">
@@ -30,7 +45,7 @@
         </section>
     </section>
 
-    <section id="RedesSociais">
+    <section id="produtos">
         <h2>Redes Sociais</h2>
         
         <section class="Redes Sociais">
@@ -49,84 +64,81 @@
         </section>
     </section>
     <section id="beneficios">
-        <h2>Benefícios</h2>
+        <h2>Mais formas de conhecer os meninos</h2>
         <section class="beneficios">
             <section class="beneficio">
                 <section class="beneficio-titulo">
                     <ion-icon name="checkmark-circle"></ion-icon>
-                    <h4>Áudio de qualidade</h4>
+                    <h4>Músicas</h4>
             </section>
-            <p>Com áudio computacional, criamos uma experiência sonora inovadora, que fazem você se sentir dentro da ação ao assistir a filmes.</p>
-            </section>
-
-            <section class="beneficio">
-                <section class="beneficio-titulo">
-                    <ion-icon name="checkmark-circle"></ion-icon>
-                    <h4>Design ergonômico</h4>
-            </section>
-            <p>Seu mecanismo revolucionário possibilita que cada fone se movimente de forma independente e equilibre a pressão.</p>
+            <p>Disponivél em todas as plataformas musicais</p>
             </section>
 
             <section class="beneficio">
                 <section class="beneficio-titulo">
                     <ion-icon name="checkmark-circle"></ion-icon>
-                    <h4>Ajuste impecável</h4>
+                    <h4>Membros</h4>
             </section>
-            <p>As almofadas criam uma vedação confortável e total, que é o primeiro passo para um som incrível.</p>
+            <p>Os membros são:
+                 RM, Jin, SUGA, j-hope, Jimin, V e o Jung Kook.</p>
+            </section>
+
+            <section class="beneficio">
+                <section class="beneficio-titulo">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                    <h4>Run BTS</h4>
+            </section>
+            <p>Os episódios do 'Run BTS' agora estarão TODOS disponíveis no canal do YouTube (BANGTANTV)!</p>
             </section>
         </section>
-        <a class="botao-primario" href="">Comprar agora!</a>
+        
     </section>
 
-    <section id="sobre-nos">
+    <section id="">
         <section class="esquerda">
             <img src="images/sobre-nos.png" alt="">
         </section>
         <section class="direita">
-            <h2>Sobre nós</h2>
-            <p>Somos mais do que uma marca, somos uma paixão por inovação e excelência. No coração de nossa jornada está o compromisso com a criação de experiências excepcionais. Combinamos artesanato refinado com tecnologia de ponta para oferecer produtos que transcendem as expectativas.
-                <br><br>
-                Nossa história tem dedicação à qualidade, à inspiração e à busca incessante pelo extraordinário. Convidamos você a se juntar a nós nessa jornada, onde cada detalhe conta e cada experiência é única.
-                <br><br>
-                Acreditamos que cada interação é uma oportunidade de construir conexões significativas. Nossa história é contada através dos sorrisos dos clientes satisfeitos, das inovações que moldam o futuro e das relações duradouras que construímos ao longo do caminho.</p>
-            <a class="botao-primario" href="">Comprar agora!</a>
+            <h2>Sobre Eles</h2>
+            <p>Você sabe quem são os integrantes do BTS? Se você não faz ideia do que seja isso, a primeira pergunta que pode ter vindo à sua mente é “o que significa BTS”. 
+
+                 É um acrônimo em inglês para “Bangtan Sonyeondan”. A tradução aproximada seria “escoteiros à prova de balas”.
+                
+                 Porém, se você já conhece o conjunto de RM, Jungkook, V, Jimin, Suga, Jin e J-Hope, sabe que estamos falando da banda que é o maior fenômeno do k-pop dos últimos tempos. E um dos fatores de sucesso do grupo é o carisma de seus membros.
+                
+                 Os rapazes arrastam multidões de apaixonados em qualquer lugar por onde passam, e a música não é o único motivo. Eles possuem uma personalidade realmente cativante, como você verá na sequência.
+                
+                 Agora que você já sabe o que significa BTS, trouxemos algumas informações sobre o nome e a cidade natal dos integrantes, suas funções no grupo e muito mais!
+                </p>
+            
             </section>
     </section>
 
     <footer>
         <section class="marca">
             <img src="images/logo.svg" alt="">
-            <p>Mais do que um fone: um sonho!</p>
+            <p>BTS PURPLE YOU!!!</p>
         </section>
         <section class="informacoes">
-            <h5>Informações</h5>
-            <ul>
-                <li>Contate-nos</li>
-                <li>Sobre nós</li>
-                <li>Blog</li>
-                <li>FAQs</li>
+            
             </ul>
         </section>
         <section class="empresa">
-            <h5>Empresa</h5>
-            <ul>
-                <li>Promoções</li>
-                <li>Carreiras</li>
-                <li>Termos e condições</li>
-                <li>Políticas de privacidade</li>
+            
             </ul>
         </section>
         <section class="contato">
             <h5>Conecte-se conosco!</h5>
             <section class="icons">
-                <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
+                
                 <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href=""><ion-icon name="logo-facebook"></ion-icon></a>
+                
+                
             </section>
         </section>
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
